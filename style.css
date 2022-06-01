@@ -158,3 +158,47 @@ body {
     font-weight: bold;
     color: #1f2937;
 }
+
+/* Announcement associated styling */
+
+.announcement {
+    display: flex;
+    padding: 44px 96px;
+}
+
+.announcement .announcement-box {
+    display: flex;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 16px;
+    flex: 1 1 0;
+    padding: 32px 96px;
+}
+
+.announcement .announcement-content {
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+}
+
+.announcement .announcement-content .announcement-title {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.announcement .announcement-content .announcement-description {
+    font-size: 16px;
+    color: #e5e7eb;
+}
+
+.announcement .announcement-link {
+    margin-left: auto;
+    padding: 6px 16px;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 18px;
+    color:#f9faf8 ;
+    font-weight: bold;
+    
+}
