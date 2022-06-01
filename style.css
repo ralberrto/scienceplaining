@@ -160,7 +160,6 @@ body {
 }
 
 /* Announcement associated styling */
-
 .announcement {
     display: flex;
     padding: 44px 96px;
@@ -201,4 +200,18 @@ body {
     color:#f9faf8 ;
     font-weight: bold;
     
+}
+
+/* Footer associated styling */
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    background-color: #1f2937;
+}
+
+.footer .footer-content {
+    font-size: 18px;
+    color: #e5e7eb
 }
